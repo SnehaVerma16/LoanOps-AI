@@ -1,0 +1,9 @@
+
+services:
+  loanops-api:
+    build: .
+    image: loanops-ai:1.0
+    container_name: loanops-api
+    ports:
+      - "8000:8000"
+    restart: unless-stopped
