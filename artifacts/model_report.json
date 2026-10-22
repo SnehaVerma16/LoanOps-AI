@@ -1,0 +1,28 @@
+{
+    "project": "LoanOps AI",
+    "selected_model": "Logistic Regression (Tuned)",
+    "test_metrics": {
+        "Accuracy": 0.8536585365853658,
+        "Precision": 0.8316831683168316,
+        "Recall": 0.9882352941176471,
+        "F1-score": 0.9032258064516129,
+        "ROC-AUC": 0.8452012383900929
+    },
+    "best_parameters": {
+        "C": "0.01",
+        "class_weight": "None",
+        "dual": "False",
+        "fit_intercept": "True",
+        "intercept_scaling": "1",
+        "l1_ratio": "None",
+        "max_iter": "2000",
+        "multi_class": "deprecated",
+        "n_jobs": "None",
+        "penalty": "l2",
+        "random_state": "42",
+        "solver": "lbfgs",
+        "tol": "0.0001",
+        "verbose": "0",
+        "warm_start": "False"
+    }
+}
