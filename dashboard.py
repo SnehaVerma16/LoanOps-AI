@@ -23,8 +23,9 @@ try:
     else:
         st.warning("API is responding, but the model is not loaded.")
 
-except requests.RequestException:
+except requests.RequestException as exc:
     st.error("API unavailable. Please try again later.")
+    st.caption(f"Connection details: {type(exc).__name__}: {exc}")
 
 st.divider()
 st.subheader("Loan Prediction")
