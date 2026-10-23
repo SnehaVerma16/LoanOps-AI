@@ -8,3 +8,5 @@ joblib==1.6.0
 pytest
 httpx
 psycopg[binary]
+streamlit
+requests
